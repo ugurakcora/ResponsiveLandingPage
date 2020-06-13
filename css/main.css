@@ -124,3 +124,28 @@ html {
     opacity: .6;
 }
 
+#contact{
+    color: #fff;
+    padding: 1rem;
+}
+#contact .contact-form{
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul li a{
+    padding-right: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul li a:hover{
+    opacity: .8;
+}
+
